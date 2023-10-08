@@ -1,0 +1,36 @@
+{
+  "name": "Pork Chop Gravy",
+  "description": "Savor the delicious combination of tender pork chops smothered in rich gravy, served over fluffy white rice.",
+  "ingredients": [
+    "Pork Chops",
+    "White Rice",
+    "Onion",
+    "Garlic",
+    "Butter",
+    "All-Purpose Flour",
+    "Beef Broth",
+    "Salt",
+    "Black Pepper",
+    "Paprika",
+    "Thyme",
+    "Heavy Cream"
+  ],
+  "instructions": [
+    "1. Season pork chops with salt, black pepper, paprika, and thyme.",
+    "2. In a large skillet, melt butter over medium-high heat. Add pork chops and sear until golden brown on both sides. Remove chops from the skillet and set aside.",
+    "3. In the same skillet, add diced onion and minced garlic. Sauté until fragrant and translucent.",
+    "4. Sprinkle all-purpose flour over the onions and garlic. Stir and cook for a minute to form a roux.",
+    "5. Gradually whisk in beef broth and heavy cream until the mixture thickens into a smooth gravy. Season with salt, pepper, and additional thyme to taste.",
+    "6. Return the seared pork chops to the skillet and simmer in the gravy for about 15-20 minutes until the chops are cooked through and tender.",
+    "7. While the chops simmer, prepare white rice according to package instructions.",
+    "8. Serve the pork chops and rich gravy over a bed of fluffy white rice.",
+    "9. Garnish with fresh parsley if desired.",
+    "10. Enjoy your hearty Pork Chop Gravy with Rice!"
+  ],
+  "category": "Main Course",
+  "prep_time": "15 minutes",
+  "cook_time": "30 minutes",
+  "total_time": "45 minutes",
+  "serving_size": "4 servings",
+  "calories_per_serving": "500 calories"
+}

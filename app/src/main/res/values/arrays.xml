@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="foods">
+        <item>Spicy Spaghetti</item>
+        <item>Pork Gravy</item>
+        <item>Beef Biryani</item>
+        <item>Cheesy Pasta</item>
+        <item>Meat Loaf</item>
+        <item>Mac and Cheese</item>
+    </string-array>
+
+    <string-array name="recipes">
+        <item>
+
+        </item>
+    </string-array>
+</resources>

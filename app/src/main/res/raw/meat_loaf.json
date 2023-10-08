@@ -1,0 +1,24 @@
+{
+  "name": "Meat Loaf",
+  "description": "A classic comfort food dish made with ground meat and seasonings.",
+  "ingredients": [
+    "Ground Beef",
+    "Breadcrumbs",
+    "Onion",
+    "Egg",
+    "Ketchup",
+    "Milk",
+    "Worcestershire Sauce",
+    "Salt",
+    "Pepper"
+  ],
+  "instructions": [
+    "1. Preheat oven to 350°F (175°C).",
+    "2. In a large bowl, combine ground beef, breadcrumbs, diced onion, beaten egg, ketchup, milk, Worcestershire sauce, salt, and pepper.",
+    "3. Form the mixture into a loaf shape and place in a baking dish.",
+    "4. Spread ketchup over the top of the meatloaf.",
+    "5. Bake in the preheated oven for 1 hour or until fully cooked.",
+    "6. Let it rest for a few minutes before slicing and serving."
+  ],
+  "category": "Main Course"
+}

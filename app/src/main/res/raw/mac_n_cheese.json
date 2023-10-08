@@ -1,0 +1,30 @@
+{
+  "name": "Mac and Cheese",
+  "description": "Deluge your tongue in the sensuous creamy river of cheese and noodles.",
+  "ingredients": [
+    "Butter",
+    "Corn starch",
+    "Salt",
+    "Pepper",
+    "Buttermilk",
+    "Whole milk",
+    "Cheddar cheese",
+    "Macaroni"
+  ],
+  "instructions": [
+    "1. Melt butter in a saucepan over medium heat.",
+    "2. Stir in corn starch, salt, and pepper until smooth.",
+    "3. Slowly pour in buttermilk and milk, stirring constantly.",
+    "4. Bring to a boil and cook for 2 minutes, stirring constantly.",
+    "5. Reduce heat to low and add cheese.",
+    "6. Stir until cheese is melted.",
+    "7. Cook macaroni according to package directions.",
+    "8. Drain and stir into cheese sauce."
+  ],
+  "category": "Pasta",
+  "prep_time": "15 minutes",
+  "cook_time": "30 minutes",
+  "total_time": "45 minutes",
+  "serving_size": "4 servings",
+  "calories_per_serving": "450 calories"
+}

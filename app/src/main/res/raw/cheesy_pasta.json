@@ -1,0 +1,24 @@
+{
+  "name": "Cheesy Pasta",
+  "description": "Creamy and cheesy pasta that's a crowd-pleaser.",
+  "ingredients": [
+    "Pasta",
+    "Butter",
+    "Heavy Cream",
+    "Parmesan Cheese",
+    "Cheddar Cheese",
+    "Salt",
+    "Pepper",
+    "Garlic Powder",
+    "Parsley"
+  ],
+  "instructions": [
+    "1. Cook pasta according to package instructions.",
+    "2. In a saucepan, melt butter and add heavy cream.",
+    "3. Stir in Parmesan and Cheddar cheese until creamy.",
+    "4. Season with salt, pepper, garlic powder, and parsley.",
+    "5. Combine with cooked pasta.",
+    "6. Serve hot and garnish with extra cheese and parsley."
+  ],
+  "category": "Pasta"
+}

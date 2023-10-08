@@ -1,0 +1,37 @@
+{
+  "name": "Spicy Spaghetti",
+  "description": "Indulge in the fiery flavors of this mouth-watering, spicy spaghetti dish.",
+  "ingredients": [
+    "Spaghetti",
+    "Tomato Sauce",
+    "Meatballs",
+    "Parmesan Cheese",
+    "Mushrooms",
+    "Onions",
+    "Red Bell Pepper",
+    "Green Chili Pepper",
+    "Garlic",
+    "Basil",
+    "Oregano",
+    "Salt",
+    "Pepper",
+    "Olive Oil"
+  ],
+  "instructions": [
+    "1. Cook the spaghetti according to package instructions until al dente. Drain and set aside.",
+    "2. In a large skillet, heat olive oil over medium heat. Add minced garlic and sauté until fragrant.",
+    "3. Add finely chopped onions, red bell pepper, and green chili pepper. Cook until they begin to soften.",
+    "4. Add sliced mushrooms and cook until they release their moisture and start to brown.",
+    "5. Add meatballs and cook until browned and cooked through.",
+    "6. Stir in tomato sauce, basil, oregano, salt, and pepper. Simmer for 10-15 minutes, allowing the flavors to meld.",
+    "7. Serve the spicy meatball and vegetable sauce over the cooked spaghetti.",
+    "8. Garnish with grated Parmesan cheese.",
+    "9. Enjoy your spicy spaghetti!"
+  ],
+  "category": "Pasta",
+  "prep_time": "15 minutes",
+  "cook_time": "30 minutes",
+  "total_time": "45 minutes",
+  "serving_size": "4 servings",
+  "calories_per_serving": "450 calories"
+}

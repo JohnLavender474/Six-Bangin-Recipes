@@ -1,0 +1,28 @@
+{
+  "name": "Beef Biryani",
+  "description": "A flavorful and aromatic Indian rice dish with tender beef.",
+  "ingredients": [
+    "Basmati Rice",
+    "Beef (cubed)",
+    "Onions",
+    "Tomatoes",
+    "Yogurt",
+    "Ginger-Garlic Paste",
+    "Spices (cumin, coriander, turmeric, garam masala)",
+    "Lemon Juice",
+    "Mint Leaves",
+    "Cilantro",
+    "Salt",
+    "Oil",
+    "Water"
+  ],
+  "instructions": [
+    "1. Marinate the beef in yogurt, spices, and lemon juice.",
+    "2. Cook rice separately.",
+    "3. Saute onions, tomatoes, and marinated beef.",
+    "4. Layer rice and beef mixture, garnish with mint and cilantro.",
+    "5. Steam until fully cooked.",
+    "6. Serve hot."
+  ],
+  "category": "Main Course"
+}
