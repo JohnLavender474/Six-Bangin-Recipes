@@ -6,6 +6,8 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
@@ -19,7 +21,8 @@ public class RecipeInfoFragment extends Fragment {
 
     private static final String TAG = "RecipeInfoFragment";
 
-    public RecipeInfoFragment() {}
+    public RecipeInfoFragment() {
+    }
 
     public static RecipeInfoFragment newInstance(int recipeIndex) {
         try {
@@ -46,19 +49,29 @@ public class RecipeInfoFragment extends Fragment {
         try {
             Log.d(TAG, "onCreateView()");
 
-            ScrollView scroller = new ScrollView(getActivity());
-            TextView textView = new TextView(getActivity());
-            scroller.addView(textView);
-
+            Recipe recipe = Recipes.get().get(getRecipeIndex());
+            assert recipe != null;
             int padding = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
                     12, getActivity().getResources().getDisplayMetrics());
 
+            ScrollView scroller = new ScrollView(getActivity());
+            LinearLayout layout = new LinearLayout(getActivity());
+            layout.setOrientation(LinearLayout.VERTICAL);
+
+            ImageView imageView = new ImageView(getActivity());
+            imageView.setPadding(padding, padding, padding, padding);
+            imageView.setMaxHeight(300);
+            imageView.setMaxWidth(300);
+            imageView.setImageResource(recipe.getImage());
+            layout.addView(imageView);
+
+            TextView textView = new TextView(getActivity());
             textView.setPadding(padding, padding, padding, padding);
             textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18f);
-            Recipe recipe = Recipes.get().get(getRecipeIndex());
-            assert recipe != null;
             textView.setText(recipe.toString());
+            layout.addView(textView);
 
+            scroller.addView(layout);
             return scroller;
         } catch (Exception e) {
             Log.d(TAG, "onCreateView(): " + e.getMessage());

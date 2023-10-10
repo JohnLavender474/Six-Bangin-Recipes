@@ -13,6 +13,7 @@ public class Recipe implements Serializable {
     private String[] ingredients;
     private String[] instructions;
     private String category;
+    private int image;
 
     @NonNull
     @Override
@@ -76,5 +77,13 @@ public class Recipe implements Serializable {
 
     public void setCategory(String category) {
         this.category = category;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
     }
 }

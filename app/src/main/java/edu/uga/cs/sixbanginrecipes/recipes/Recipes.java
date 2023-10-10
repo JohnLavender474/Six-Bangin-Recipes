@@ -27,6 +27,7 @@ public class Recipes {
             try (stream) {
                 InputStreamReader reader = new InputStreamReader(stream);
                 Recipe recipe = gson.fromJson(reader, Recipe.class);
+                recipe.setImage(recipeFile.getImage());
 
                 Log.d(TAG, "initialize(): Adding recipe to recipe list: " + recipe);
 
