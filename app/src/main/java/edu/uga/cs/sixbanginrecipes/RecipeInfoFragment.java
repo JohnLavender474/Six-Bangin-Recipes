@@ -17,6 +17,10 @@ import androidx.fragment.app.Fragment;
 import edu.uga.cs.sixbanginrecipes.recipes.Recipe;
 import edu.uga.cs.sixbanginrecipes.recipes.Recipes;
 
+/**
+ * The fragment for the details of a recipe. This fragment displays the details of a recipe.
+ * This fragment is used in the two-pane layout for tablets and the one-pane layout for phones.
+ */
 public class RecipeInfoFragment extends Fragment {
 
     private static final String TAG = "RecipeInfoFragment";
@@ -24,10 +28,17 @@ public class RecipeInfoFragment extends Fragment {
     public RecipeInfoFragment() {
     }
 
+    /**
+     * Returns a new instance of this fragment for the given recipe index.
+     *
+     * @param recipeIndex the index of the recipe to display
+     * @return a new instance of this fragment for the given recipe index
+     */
     public static RecipeInfoFragment newInstance(int recipeIndex) {
         try {
             Log.d(TAG, "newInstance(): recipeIndex: " + recipeIndex);
 
+            // Create a new fragment instance
             RecipeInfoFragment fragment = new RecipeInfoFragment();
             Log.d(TAG, "newInstance(): fragment: " + fragment);
 
@@ -43,6 +54,18 @@ public class RecipeInfoFragment extends Fragment {
         }
     }
 
+    /**
+     * Called to have the fragment instantiate its user interface view. This is optional, and
+     *
+     * @param inflater           The LayoutInflater object that can be used to inflate
+     *                           any views in the fragment,
+     * @param container          If non-null, this is the parent view that the fragment's
+     *                           UI should be attached to.  The fragment should not add the view itself,
+     *                           but this can be used to generate the LayoutParams of the view.
+     * @param savedInstanceState If non-null, this fragment is being re-constructed
+     *                           from a previous saved state as given here.
+     * @return Return the View for the fragment's UI, or null.
+     */
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -80,6 +103,11 @@ public class RecipeInfoFragment extends Fragment {
         }
     }
 
+    /**
+     * Returns the index of the recipe to display.
+     *
+     * @return the index of the recipe to display
+     */
     public int getRecipeIndex() {
         try {
             if (getArguments() == null) {

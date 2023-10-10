@@ -7,6 +7,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import edu.uga.cs.sixbanginrecipes.recipes.Recipes;
 
+/**
+ * The activity for the list of recipes. This activity displays a list of recipes and allows the
+ * user to select a recipe to view its details.
+ */
 public class RecipeListActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";

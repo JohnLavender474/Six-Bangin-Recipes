@@ -7,6 +7,10 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * Shows the splash screen and then starts the RecipeListActivity when the Go button is pressed.
+ * This activity is the main entry point for the app.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";

@@ -11,6 +11,10 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.fragment.app.ListFragment;
 
+/**
+ * The fragment for the list of recipes. This fragment displays a list of recipes and allows the
+ * user to select a recipe to view its details.
+ */
 public class RecipeListFragment extends ListFragment {
 
     private static final String TAG = "RecipeListFragment";
@@ -18,6 +22,10 @@ public class RecipeListFragment extends ListFragment {
     private boolean twoFragmentsActivity;
     private int recipeIndex;
 
+    /**
+     * Mandatory empty constructor for the fragment manager to instantiate the fragment (e.g. upon
+     * screen orientation changes).
+     */
     public RecipeListFragment() {
         twoFragmentsActivity = false;
         recipeIndex = 0;
@@ -29,6 +37,8 @@ public class RecipeListFragment extends ListFragment {
             super.onViewCreated(view, savedInstanceState);
 
             Log.d(TAG, "onActivityCreated(): savedInstanceState: " + savedInstanceState);
+
+            // Sets a list of foods to the list view
             String[] foods = getResources().getStringArray(R.array.foods);
             setListAdapter(
                     new ArrayAdapter<>(
@@ -60,6 +70,14 @@ public class RecipeListFragment extends ListFragment {
         }
     }
 
+    /**
+     * Handle a click on a recipe in the list.
+     *
+     * @param l        The ListView where the click happened
+     * @param v        The view that was clicked within the ListView
+     * @param position The position of the view in the list
+     * @param id       The row id of the item that was clicked
+     */
     @Override
     public void onListItemClick(@NonNull ListView l, @NonNull View v, int position, long id) {
         try {
@@ -71,6 +89,11 @@ public class RecipeListFragment extends ListFragment {
         }
     }
 
+    /**
+     * Save the current state of this fragment.
+     *
+     * @param outState Bundle in which to place your saved state.
+     */
     @Override
     public void onSaveInstanceState(@NonNull Bundle outState) {
         try {
@@ -84,6 +107,11 @@ public class RecipeListFragment extends ListFragment {
         }
     }
 
+    /**
+     * Show the recipe info fragment.
+     *
+     * @param recipeIndex the index of the recipe to show
+     */
     void showRecipeInfo(int recipeIndex) {
         this.recipeIndex = recipeIndex;
 
