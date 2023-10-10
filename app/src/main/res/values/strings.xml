@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Six Bangin\' Recipes</string>
     <string name="go">Go</string>
+    <string name="description">This app showcases fragments and lets the user
+    browse six recipes in a list view format</string>
 </resources>
